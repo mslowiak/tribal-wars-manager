@@ -1,0 +1,49 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: circleci/openjdk:8-jdk-browsers
+
+    steps:
+      - checkout
+      - restore_cache:
+          key: circleci-twm-{{ checksum "pom.xml" }}
+      - run: cd tribal-wars-manager-backend && mvn dependency:go-offline
+      - save_cache:
+          paths:
+            - ~/.m2
+          key: circleci-twm-{{ checksum "pom.xml" }}
+      - run: cd tribal-wars-manager-backend && mvn package -Dmaven.test.skip=true
+      - store_artifacts:
+          path: tribal-wars-manager-backend/target/demo-0.0.1-SNAPSHOT.jar
+
+  test:
+    docker:
+      - image: circleci/openjdk:8-jdk-browsers
+
+    steps:
+      - checkout
+      - restore_cache:
+          key: circleci-twm-{{ checksum "pom.xml" }}
+      - run: cd tribal-wars-manager-backend && mvn dependency:go-offline
+      - save_cache:
+          paths:
+            - ~/.m2
+          key: circleci-twm-{{ checksum "pom.xml" }}
+      - run: cd tribal-wars-manager-backend && mvn test
+      - store_test_results:
+          paths:
+            - tribal-wars-manager-backend/target/surefire-reports
+      - persist_to_workspace:
+          root: .
+          paths:
+            - tribal-wars-manager-backend/target/*
+
+workflows:
+  version: 2
+  demo:
+    jobs:
+      - build
+      - test:
+          requires:
+            - build
