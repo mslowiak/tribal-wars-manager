@@ -7,12 +7,12 @@ jobs:
     steps:
       - checkout
       - restore_cache:
-          key: circleci-twm-{{ checksum "pom.xml" }}
+          key: circleci-twm-{{ checksum "tribal-wars-manager-backend/pom.xml" }}
       - run: cd tribal-wars-manager-backend && mvn dependency:go-offline
       - save_cache:
           paths:
             - ~/.m2
-          key: circleci-twm-{{ checksum "pom.xml" }}
+          key: circleci-twm-{{ checksum "tribal-wars-manager-backend/pom.xml" }}
       - run: cd tribal-wars-manager-backend && mvn package -Dmaven.test.skip=true
       - store_artifacts:
           path: tribal-wars-manager-backend/target/demo-0.0.1-SNAPSHOT.jar
@@ -24,12 +24,12 @@ jobs:
     steps:
       - checkout
       - restore_cache:
-          key: circleci-twm-{{ checksum "pom.xml" }}
+          key: circleci-twm-{{ checksum "tribal-wars-manager-backend/pom.xml" }}
       - run: cd tribal-wars-manager-backend && mvn dependency:go-offline
       - save_cache:
           paths:
             - ~/.m2
-          key: circleci-twm-{{ checksum "pom.xml" }}
+          key: circleci-twm-{{ checksum "tribal-wars-manager-backend/pom.xml" }}
       - run: cd tribal-wars-manager-backend && mvn test
       - store_test_results:
           paths:
