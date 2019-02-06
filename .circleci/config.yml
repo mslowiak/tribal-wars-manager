@@ -39,6 +39,16 @@ jobs:
           paths:
             - tribal-wars-manager-backend/target/*
 
+  sonar-export:
+    docker:
+      - image: circleci/openjdk:8-jdk-browsers
+    steps:
+      - checkout
+      - attach_workspace:
+          at: .
+      - run: cd tribal-wars-manager-backend && mvn sonar:sonar -Dsonar.projectKey=$SONAR_PROJECT_KEY -Dsonar.organization=$SONAR_ORGANIZATION -Dsonar.login=$SONAR_API_KEY
+
+
 workflows:
   version: 2
   demo:
@@ -47,3 +57,6 @@ workflows:
       - test:
           requires:
             - build
+      - sonar-export:
+          requires:
+            - test
