@@ -15,6 +15,12 @@
 	<description>Tribal Wars Manager - backend</description>
 
 	<properties>
+		<sonar.core.codeCoveragePlugin>jacoco</sonar.core.codeCoveragePlugin>
+		<sonar.jacoco.reportPaths>${project.basedir}/target/jacoco.exec</sonar.jacoco.reportPaths>
+		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
+		<sonar.java.binaries>${project.basedir}/target</sonar.java.binaries>
+		<sonar.language>java</sonar.language>
+		<sonar.tests>${project.basedir}/target/test-classes</sonar.tests>
 		<java.version>1.8</java.version>
 	</properties>
 
