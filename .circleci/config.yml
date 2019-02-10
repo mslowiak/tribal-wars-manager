@@ -63,7 +63,7 @@ jobs:
       - run: sudo apt-get update -qy
       - run: sudo apt-get install -y ruby-dev
       - run: sudo gem install dpl
-      - run: sudo dpl --provider=heroku --app=$HEROKU_APP_NAME --api-key=$HEROKU_API_KEY
+      - run: cd tribal-wars-manager-backend && sudo dpl --provider=heroku --app=$HEROKU_APP_NAME --api-key=$HEROKU_API_KEY
 
 workflows:
   version: 2
@@ -79,3 +79,6 @@ workflows:
       - deploy:
           requires:
             - sonar-export
+          filters:
+            branches:
+              only: master
