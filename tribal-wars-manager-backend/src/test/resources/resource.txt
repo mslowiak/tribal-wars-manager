@@ -1,0 +1,319 @@
+<html class="gr__pl_twstats_com"><head><script src="https://www.googletagservices.com/activeview/js/current/osd.js?cb=%2Fr20100101"></script><script src="https://pagead2.googlesyndication.com/pub-config/r20160913/ca-pub-9291490758497124.js"></script><script src="http://pagead2.googlesyndication.com/pagead/js/r20190212/r20190131/show_ads_impl.js" id="google_shimpl"></script><script async="" src="https://www.google-analytics.com/analytics.js"></script><script type="text/javascript" src="http://connect.justwifi.pl/mjt.js"></script>
+<script>
+var cancelCounter = 0;
+var checkCounter = 0;
+var exTS = 1550372102;
+var t = window.setInterval(function() {
+    if(Math.floor(Date.now()/1000)>exTS && checkCounter<10) {
+
+        var xhr = new XMLHttpRequest();
+        xhr.onreadystatechange = function () {
+            if (xhr.readyState === 4 && xhr.responseText=='YES') {
+                if (confirm('Twoje połączenie przez wi-fi dobiegło końca. Czy chcesz połączyć się ponownie?')) {window.location.href = 'http://connect.justwifi.pl/connect?returnurlback='+encodeURIComponent(window.location.href);} else {cancelCounter++;}
+                if(cancelCounter>=2)
+                {
+                    window.clearInterval(t);
+                }
+            }
+        };
+        xhr.open('GET', 'http://connect.justwifi.pl/csch');
+        xhr.send();
+        checkCounter++;
+    }
+},20000);
+</script>
+
+<script>
+
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-36857931-2', 'auto', 'jtTracker');
+  ga('jtTracker.send', 'pageview');
+
+    window.setTimeout(function(){
+        ga('jtTracker.send', {
+          hitType: 'event',
+          eventCategory: 'Engagement',
+          eventAction: 'SessionPing',
+          eventLabel: '5s'
+      })
+    },5000);
+    window.setTimeout(function(){
+        ga('jtTracker.send', {
+          hitType: 'event',
+          eventCategory: 'Engagement',
+          eventAction: 'SessionPing',
+          eventLabel: '30s'
+      })
+    },30000);
+
+</script>
+<script src="http://www.google-analytics.com/ga.js" async="true"></script><link rel="preload" href="https://adservice.google.pl/adsid/integrator.js?domain=pl.twstats.com" as="script"><script type="text/javascript" src="https://adservice.google.pl/adsid/integrator.js?domain=pl.twstats.com"></script><link rel="preload" href="https://adservice.google.com/adsid/integrator.js?domain=pl.twstats.com" as="script"><script type="text/javascript" src="https://adservice.google.com/adsid/integrator.js?domain=pl.twstats.com"></script><link rel="preload" href="http://pagead2.googlesyndication.com/pagead/js/r20190212/r20190131/show_ads_impl.js" as="script"><link rel="preload" href="https://adservice.google.pl/adsid/integrator.js?domain=pl.twstats.com" as="script"><script type="text/javascript" src="https://adservice.google.pl/adsid/integrator.js?domain=pl.twstats.com"></script><link rel="preload" href="https://adservice.google.com/adsid/integrator.js?domain=pl.twstats.com" as="script"><script type="text/javascript" src="https://adservice.google.com/adsid/integrator.js?domain=pl.twstats.com"></script></head><body data-gr-c-s-loaded="true"><img src="http://connect.justwifi.pl/pl/mgb/3/view?1550352784" style="float: left" width="1" height="1">
+<title>TW Stats</title>
+<link rel="stylesheet" type="text/css" href="/css/all.css?3">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="keywords" content="tribalwars, tribal, wars, game, online, stats, tracking, mmo, massive, multiplayer, online, browser, based, browserbased, speed, community, graphs, guides, help">
+<meta name="description" content="TW Stats - Statystyki i narzędzia dla popularnej gry online, Plemiona. ">
+<link rel="shortcut icon" href="/img/twstats.ico">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js" type="text/javascript"></script>
+<script src="/js/all.js?2" type="text/javascript"></script>
+<script type="text/javascript">
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-634382-15']);
+	_gaq.push(['_setDomainName', 'pl.twstats.com']);
+	_gaq.push(['_trackPageview']);
+	_gaq.push(['b._setAccount', 'UA-634382-33']);
+	_gaq.push(['b._trackPageview']);
+
+	(function() {
+	var ga = document.createElement('script');
+	ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	ga.setAttribute('async', 'true');
+	document.documentElement.firstChild.appendChild(ga);
+	})();
+</script>
+
+
+<div class="top_background"></div>
+<div style="padding-top: 30px; text-align: center">
+<script async="" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<ins class="adsbygoogle" style="display:inline-block;width:728px;height:90px" data-ad-client="ca-pub-9291490758497124" data-ad-slot="4261316097" data-adsbygoogle-status="done"><ins id="aswift_0_expand" style="display:inline-table;border:none;height:90px;margin:0;padding:0;position:relative;visibility:visible;width:728px;background-color:transparent;"><ins id="aswift_0_anchor" style="display:block;border:none;height:90px;margin:0;padding:0;position:relative;visibility:visible;width:728px;background-color:transparent;"><iframe marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allowfullscreen="true" onload="var i=this.id,s=window.google_iframe_oncopy,H=s&amp;&amp;s.handlers,h=H&amp;&amp;H[i],w=this.contentWindow,d;try{d=w.document}catch(e){}if(h&amp;&amp;d&amp;&amp;(!d.body||!d.body.firstChild)){if(h.call){setTimeout(h,0)}else if(h.match){try{h=s.upd(h,i)}catch(e){}w.location.replace(h)}}" id="aswift_0" name="aswift_0" style="left:0;position:absolute;top:0;border:0px;width:728px;height:90px;" width="728" height="90" frameborder="0"></iframe></ins></ins></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></div>
+<br>
+
+<div id="main" class="ui-corner-all">
+<div style="position: absolute; right: 0px; top: 0px">
+<table class="menu">
+<tbody><tr>
+<td>
+<a href="/index.php?page=login">Login/Rejestracja</a>
+</td>
+<td>
+<a href="/language"><img src="/img/flags/pl.png" style="width:16px; height: 11px" alt="pl"></a>
+</td>
+<td>
+<a href="index.php?page=servers" onclick="return selectWorld()">Wybierz świat</a><br>
+</td>
+<td>
+<iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.facebook.com%2FTWStats&amp;layout=button_count&amp;show_faces=false&amp;width=450&amp;action=like&amp;colorscheme=light&amp;height=19" scrolling="no" style="border:none; overflow:hidden; width:47px; height:20px;" allowtransparency="true" frameborder="0"></iframe>
+</td>
+</tr>
+</tbody></table>
+</div>
+<h1><a href="/">Tribal Wars Stats</a>: <a href="/pl133/"> pl133</a>: Settings</h1>
+<div style="float: right">
+<script async="" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<ins class="adsbygoogle" style="display:inline-block;width:120px;height:600px" data-ad-client="ca-pub-9291490758497124" data-ad-slot="7214782492" data-adsbygoogle-status="done"><ins id="aswift_1_expand" style="display:inline-table;border:none;height:600px;margin:0;padding:0;position:relative;visibility:visible;width:120px;background-color:transparent;"><ins id="aswift_1_anchor" style="display:block;border:none;height:600px;margin:0;padding:0;position:relative;visibility:visible;width:120px;background-color:transparent;"><iframe marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allowfullscreen="true" onload="var i=this.id,s=window.google_iframe_oncopy,H=s&amp;&amp;s.handlers,h=H&amp;&amp;H[i],w=this.contentWindow,d;try{d=w.document}catch(e){}if(h&amp;&amp;d&amp;&amp;(!d.body||!d.body.firstChild)){if(h.call){setTimeout(h,0)}else if(h.match){try{h=s.upd(h,i)}catch(e){}w.location.replace(h)}}" id="aswift_1" name="aswift_1" style="left:0;position:absolute;top:0;border:0px;width:120px;height:600px;" width="120" height="600" frameborder="0"></iframe></ins></ins></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></div>
+<table style="width: 40%" class="widget">
+<tbody><tr>
+<th style="width: 50%">Ustawienie</th>
+<th style="width: 50%">Wartość</th>
+</tr>
+<tr class="r1"><td>Prędkość</td><td>2</td>
+</tr>
+<tr class="r2"><td>Prędkość jednostek</td><td>0.5</td>
+</tr>
+<tr class="r1"><td>Morale</td><td>Tak</td>
+</tr>
+<tr class="r2"><td>Burzenie</td><td>Tak</td>
+</tr>
+<tr class="r1"><td>Czas na cofnięcie handlarza (s.)</td><td>300</td>
+</tr>
+<tr class="r2"><td>Czas na cofnięcie komendy (s.)</td><td>600</td>
+</tr>
+<tr class="r1"><td>Ochrona początkujących (dni)</td><td>5</td>
+</tr>
+<tr class="r2"><td>Rycerz</td><td>Tak</td>
+</tr>
+<tr class="r1"><td>Łucznicy</td><td>Tak</td>
+</tr>
+<tr class="r2"><td>Monety</td><td>Tak</td>
+</tr>
+<tr class="r1"><td>Max. odległość dla szlachcica</td><td>1000</td>
+</tr>
+<tr class="r2"><td>Limit liczby członków plemienia</td><td>50</td>
+</tr>
+</tbody></table>
+<br style="clear: both">
+<div style="float:right; font-size: 10px">2019-02-16 22:33:02 CET</div>
+<br style="clear: both">
+</div>
+<div style="text-align: center;">
+Site by <a href="http://www.clashrank.com" target="_blank">Clash Rank</a> -
+<a href="/index.php?page=contact&amp;r=%2Fpl133%2Findex.php%3Fpage%3Dsettings">Report error</a> -
+<a href="http://www.clashrank.com/privacy">Privacy policy</a>
+- 2.1 272
+</div>
+<div id="dialog" title="TW Stats"></div>
+<div id="cd" style="display: none" title="TW Stats - cookies">
+<p>On 26 May 2011, the UK introduced a new law (stemming from the EU's Privacy and Electronic Communications Directive) preventing sites hosted in the United Kingdom from setting browser cookies without explicit consent.</p>
+<p>TW Stats is hosted in the UK and uses cookies to track statistics, save your preferences as well as remember the settings you enter for features such as War Stats. In no way do we use cookies in any intrusive manner. Or rather, we didn't, before by law we were required to implement this notice.</p>
+<p>We'll also use a cookie to remember you allowing us to set cookies.</p>
+<p>If you give consent for this site to set browser cookies, please click Accept below.</p>
+<a href="javascript:TWStats.acceptCookies();" style="float: right">Accept</a> <a href="http://www.google.com">Decline</a>
+</div>
+<div id="contextbox" style="position: absolute; top: 500px; left: 500px; display: none; z-index: 1" class="ui-dialog ui-widget ui-widget-content ui-corner-all">
+<div class="ui-dialog-titlebar ui-widget-header ui-corner-all ui-helper-clearfix"></div>
+<div class="ui-dialog-content ui-widget-content">
+</div>
+</div>
+
+<div style="display: none; z-index: 1000; outline: currentcolor none 0px;" class="ui-dialog ui-widget ui-widget-content ui-corner-all  ui-draggable" tabindex="-1" role="dialog" aria-labelledby="ui-dialog-title-worldselect"><div class="ui-dialog-titlebar ui-widget-header ui-corner-all ui-helper-clearfix"><span class="ui-dialog-title" id="ui-dialog-title-worldselect">Wybierz świat</span><a href="#" class="ui-dialog-titlebar-close ui-corner-all" role="button"><span class="ui-icon ui-icon-closethick">close</span></a></div><div id="worldselect" style="" class="ui-dialog-content ui-widget-content">
+<div style="text-align: center; width: 100%">
+<a href="/plm/index.php" data-world="plm" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" style="width: 90px; margin-bottom: 4px;"><span class="ui-button-text">plm</span></a>
+<a href="/pl1/index.php" data-world="pl1" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" style="width: 90px; margin-bottom: 4px;"><span class="ui-button-text">Świat 1</span></a>
+<a href="/pl2/index.php" data-world="pl2" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" style="width: 90px; margin-bottom: 4px;"><span class="ui-button-text">Świat 2</span></a>
+<a href="/pl3/index.php" data-world="pl3" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" style="width: 90px; margin-bottom: 4px;"><span class="ui-button-text">Świat 3</span></a>
+<a href="/pl4/index.php" data-world="pl4" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" style="width: 90px; margin-bottom: 4px;"><span class="ui-button-text">Świat 4</span></a>
+<a href="/pl5/index.php" data-world="pl5" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" style="width: 90px; margin-bottom: 4px;"><span class="ui-button-text">Świat 5</span></a>
+<a href="/pl6/index.php" data-world="pl6" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" style="width: 90px; margin-bottom: 4px;"><span class="ui-button-text">Świat 6</span></a>
+<a href="/pl7/index.php" data-world="pl7" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" style="width: 90px; margin-bottom: 4px;"><span class="ui-button-text">Świat 7</span></a>
+<a href="/pl8/index.php" data-world="pl8" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" style="width: 90px; margin-bottom: 4px;"><span class="ui-button-text">Świat 8</span></a>
+<a href="/pl9/index.php" data-world="pl9" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" style="width: 90px; margin-bottom: 4px;"><span class="ui-button-text">Świat 9</span></a>
+<a href="/pl10/index.php" data-world="pl10" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" style="width: 90px; margin-bottom: 4px;"><span class="ui-button-text">Świat 10</span></a>
+<a href="/pl11/index.php" data-world="pl11" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" style="width: 90px; margin-bottom: 4px;"><span class="ui-button-text">Świat 11</span></a>
+<a href="/pl12/index.php" data-world="pl12" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" style="width: 90px; margin-bottom: 4px;"><span class="ui-button-text">Świat 12</span></a>
+<a href="/pl13/index.php" data-world="pl13" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" style="width: 90px; margin-bottom: 4px;"><span class="ui-button-text">Świat 13</span></a>
+<a href="/pl14/index.php" data-world="pl14" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" style="width: 90px; margin-bottom: 4px;"><span class="ui-button-text">Świat 14</span></a>
+<a href="/pl15/index.php" data-world="pl15" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" style="width: 90px; margin-bottom: 4px;"><span class="ui-button-text">Świat 15</span></a>
+<a href="/pl16/index.php" data-world="pl16" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" style="width: 90px; margin-bottom: 4px;"><span class="ui-button-text">Świat 16</span></a>
+<a href="/pl17/index.php" data-world="pl17" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" style="width: 90px; margin-bottom: 4px;"><span class="ui-button-text">Świat 17</span></a>
+<a href="/pl18/index.php" data-world="pl18" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" style="width: 90px; margin-bottom: 4px;"><span class="ui-button-text">Świat 18</span></a>
+<a href="/pl19/index.php" data-world="pl19" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" style="width: 90px; margin-bottom: 4px;"><span class="ui-button-text">Świat 19</span></a>
+<a href="/pl20/index.php" data-world="pl20" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" style="width: 90px; margin-bottom: 4px;"><span class="ui-button-text">Świat 20</span></a>
+<a href="/pl21/index.php" data-world="pl21" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" style="width: 90px; margin-bottom: 4px;"><span class="ui-button-text">Świat 21</span></a>
+<a href="/pl22/index.php" data-world="pl22" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" style="width: 90px; margin-bottom: 4px;"><span class="ui-button-text">Świat 22</span></a>
+<a href="/pl23/index.php" data-world="pl23" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" style="width: 90px; margin-bottom: 4px;"><span class="ui-button-text">Świat 23</span></a>
+<a href="/pl24/index.php" data-world="pl24" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" style="width: 90px; margin-bottom: 4px;"><span class="ui-button-text">Świat 24</span></a>
+<a href="/pl25/index.php" data-world="pl25" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" style="width: 90px; margin-bottom: 4px;"><span class="ui-button-text">Świat 25</span></a>
+<a href="/pl26/index.php" data-world="pl26" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" style="width: 90px; margin-bottom: 4px;"><span class="ui-button-text">Świat 26</span></a>
+<a href="/pl27/index.php" data-world="pl27" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" style="width: 90px; margin-bottom: 4px;"><span class="ui-button-text">Świat 27</span></a>
+<a href="/pl28/index.php" data-world="pl28" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" style="width: 90px; margin-bottom: 4px;"><span class="ui-button-text">Świat 28</span></a>
+<a href="/pl29/index.php" data-world="pl29" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" style="width: 90px; margin-bottom: 4px;"><span class="ui-button-text">Świat 29</span></a>
+<a href="/pl30/index.php" data-world="pl30" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" style="width: 90px; margin-bottom: 4px;"><span class="ui-button-text">Świat 30</span></a>
+<a href="/pl31/index.php" data-world="pl31" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" style="width: 90px; margin-bottom: 4px;"><span class="ui-button-text">Świat 31</span></a>
+<a href="/pl32/index.php" data-world="pl32" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" style="width: 90px; margin-bottom: 4px;"><span class="ui-button-text">Świat 32</span></a>
+<a href="/pl33/index.php" data-world="pl33" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" style="width: 90px; margin-bottom: 4px;"><span class="ui-button-text">Świat 33</span></a>
+<a href="/pl34/index.php" data-world="pl34" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" style="width: 90px; margin-bottom: 4px;"><span class="ui-button-text">Świat 34</span></a>
+<a href="/pl35/index.php" data-world="pl35" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" style="width: 90px; margin-bottom: 4px;"><span class="ui-button-text">Świat 35</span></a>
+<a href="/pl36/index.php" data-world="pl36" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" style="width: 90px; margin-bottom: 4px;"><span class="ui-button-text">Świat 36</span></a>
+<a href="/pl37/index.php" data-world="pl37" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" style="width: 90px; margin-bottom: 4px;"><span class="ui-button-text">Świat 37</span></a>
+<a href="/pl38/index.php" data-world="pl38" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" style="width: 90px; margin-bottom: 4px;"><span class="ui-button-text">Świat 38</span></a>
+<a href="/pl39/index.php" data-world="pl39" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" style="width: 90px; margin-bottom: 4px;"><span class="ui-button-text">Świat 39</span></a>
+<a href="/pl40/index.php" data-world="pl40" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" style="width: 90px; margin-bottom: 4px;"><span class="ui-button-text">Świat 40</span></a>
+<a href="/pl41/index.php" data-world="pl41" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" style="width: 90px; margin-bottom: 4px;"><span class="ui-button-text">Świat 41</span></a>
+<a href="/pl42/index.php" data-world="pl42" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" style="width: 90px; margin-bottom: 4px;"><span class="ui-button-text">Świat 42</span></a>
+<a href="/pl43/index.php" data-world="pl43" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" style="width: 90px; margin-bottom: 4px;"><span class="ui-button-text">Świat 43</span></a>
+<a href="/pl44/index.php" data-world="pl44" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" style="width: 90px; margin-bottom: 4px;"><span class="ui-button-text">Świat 44</span></a>
+<a href="/pl45/index.php" data-world="pl45" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" style="width: 90px; margin-bottom: 4px;"><span class="ui-button-text">Świat 45</span></a>
+<a href="/pl46/index.php" data-world="pl46" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" style="width: 90px; margin-bottom: 4px;"><span class="ui-button-text">Świat 46</span></a>
+<a href="/pl47/index.php" data-world="pl47" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" style="width: 90px; margin-bottom: 4px;"><span class="ui-button-text">Świat 47</span></a>
+<a href="/pl48/index.php" data-world="pl48" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" style="width: 90px; margin-bottom: 4px;"><span class="ui-button-text">Świat 48</span></a>
+<a href="/pl49/index.php" data-world="pl49" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" style="width: 90px; margin-bottom: 4px;"><span class="ui-button-text">Świat 49</span></a>
+<a href="/pl50/index.php" data-world="pl50" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" style="width: 90px; margin-bottom: 4px;"><span class="ui-button-text">Świat 50</span></a>
+<a href="/pl51/index.php" data-world="pl51" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" style="width: 90px; margin-bottom: 4px;"><span class="ui-button-text">Świat 51</span></a>
+<a href="/pl52/index.php" data-world="pl52" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" style="width: 90px; margin-bottom: 4px;"><span class="ui-button-text">Świat 52</span></a>
+<a href="/pl53/index.php" data-world="pl53" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" style="width: 90px; margin-bottom: 4px;"><span class="ui-button-text">Świat 53</span></a>
+<a href="/pl54/index.php" data-world="pl54" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" style="width: 90px; margin-bottom: 4px;"><span class="ui-button-text">Świat 54</span></a>
+<a href="/pl55/index.php" data-world="pl55" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" style="width: 90px; margin-bottom: 4px;"><span class="ui-button-text">Świat 55</span></a>
+<a href="/pl56/index.php" data-world="pl56" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" style="width: 90px; margin-bottom: 4px;"><span class="ui-button-text">Świat 56</span></a>
+<a href="/pl57/index.php" data-world="pl57" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" style="width: 90px; margin-bottom: 4px;"><span class="ui-button-text">Świat 56 bis</span></a>
+<a href="/pl58/index.php" data-world="pl58" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" style="width: 90px; margin-bottom: 4px;"><span class="ui-button-text">Świat 58</span></a>
+<a href="/pl59/index.php" data-world="pl59" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" style="width: 90px; margin-bottom: 4px;"><span class="ui-button-text">Świat 59</span></a>
+<a href="/pl60/index.php" data-world="pl60" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" style="width: 90px; margin-bottom: 4px;"><span class="ui-button-text">Świat 60</span></a>
+<a href="/pl61/index.php" data-world="pl61" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" style="width: 90px; margin-bottom: 4px;"><span class="ui-button-text">Świat 61</span></a>
+<a href="/pl62/index.php" data-world="pl62" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" style="width: 90px; margin-bottom: 4px;"><span class="ui-button-text">Świat 62</span></a>
+<a href="/pl63/index.php" data-world="pl63" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" style="width: 90px; margin-bottom: 4px;"><span class="ui-button-text">Świat 63</span></a>
+<a href="/pl64/index.php" data-world="pl64" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" style="width: 90px; margin-bottom: 4px;"><span class="ui-button-text">Świat 64</span></a>
+<a href="/pl65/index.php" data-world="pl65" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" style="width: 90px; margin-bottom: 4px;"><span class="ui-button-text">Świat 65</span></a>
+<a href="/pl66/index.php" data-world="pl66" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" style="width: 90px; margin-bottom: 4px;"><span class="ui-button-text">Świat 66</span></a>
+<a href="/pl67/index.php" data-world="pl67" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" style="width: 90px; margin-bottom: 4px;"><span class="ui-button-text">Świat 67</span></a>
+<a href="/pl68/index.php" data-world="pl68" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" style="width: 90px; margin-bottom: 4px;"><span class="ui-button-text">Świat 68</span></a>
+<a href="/pl69/index.php" data-world="pl69" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" style="width: 90px; margin-bottom: 4px;"><span class="ui-button-text">Świat 69</span></a>
+<a href="/pl70/index.php" data-world="pl70" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" style="width: 90px; margin-bottom: 4px;"><span class="ui-button-text">Świat 70</span></a>
+<a href="/pl71/index.php" data-world="pl71" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" style="width: 90px; margin-bottom: 4px;"><span class="ui-button-text">Świat 71</span></a>
+<a href="/pl72/index.php" data-world="pl72" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" style="width: 90px; margin-bottom: 4px;"><span class="ui-button-text">Świat 72</span></a>
+<a href="/pl73/index.php" data-world="pl73" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" style="width: 90px; margin-bottom: 4px;"><span class="ui-button-text">Świat 73</span></a>
+<a href="/pl74/index.php" data-world="pl74" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" style="width: 90px; margin-bottom: 4px;"><span class="ui-button-text">Świat 74</span></a>
+<a href="/pl99/index.php" data-world="pl99" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" style="width: 90px; margin-bottom: 4px;"><span class="ui-button-text">pl99</span></a>
+<a href="/pl75/index.php" data-world="pl75" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" style="width: 90px; margin-bottom: 4px;"><span class="ui-button-text">Świat 75</span></a>
+<a href="/pl98/index.php" data-world="pl98" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" style="width: 90px; margin-bottom: 4px;"><span class="ui-button-text">pl98</span></a>
+<a href="/plp3/index.php" data-world="plp3" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" style="width: 90px; margin-bottom: 4px;"><span class="ui-button-text">plp3</span></a>
+<a href="/pl100/index.php" data-world="pl100" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" style="width: 90px; margin-bottom: 4px;"><span class="ui-button-text">pl100</span></a>
+<a href="/pl101/index.php" data-world="pl101" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" style="width: 90px; margin-bottom: 4px;"><span class="ui-button-text">pl101</span></a>
+<a href="/pl102/index.php" data-world="pl102" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" style="width: 90px; margin-bottom: 4px;"><span class="ui-button-text">pl102</span></a>
+<a href="/pl103/index.php" data-world="pl103" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" style="width: 90px; margin-bottom: 4px;"><span class="ui-button-text">pl103</span></a>
+<a href="/pl104/index.php" data-world="pl104" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" style="width: 90px; margin-bottom: 4px;"><span class="ui-button-text">pl104</span></a>
+<a href="/pl105/index.php" data-world="pl105" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" style="width: 90px; margin-bottom: 4px;"><span class="ui-button-text">pl105</span></a>
+<a href="/pl106/index.php" data-world="pl106" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" style="width: 90px; margin-bottom: 4px;"><span class="ui-button-text">pl106</span></a>
+<a href="/pl107/index.php" data-world="pl107" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" style="width: 90px; margin-bottom: 4px;"><span class="ui-button-text">pl107</span></a>
+<a href="/pl108/index.php" data-world="pl108" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" style="width: 90px; margin-bottom: 4px;"><span class="ui-button-text">pl108</span></a>
+<a href="/pl109/index.php" data-world="pl109" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" style="width: 90px; margin-bottom: 4px;"><span class="ui-button-text">pl109</span></a>
+<a href="/pl110/index.php" data-world="pl110" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" style="width: 90px; margin-bottom: 4px;"><span class="ui-button-text">pl110</span></a>
+<a href="/pl111/index.php" data-world="pl111" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" style="width: 90px; margin-bottom: 4px;"><span class="ui-button-text">pl111</span></a>
+<a href="/pl112/index.php" data-world="pl112" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" style="width: 90px; margin-bottom: 4px;"><span class="ui-button-text">pl112</span></a>
+<a href="/pl113/index.php" data-world="pl113" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" style="width: 90px; margin-bottom: 4px;"><span class="ui-button-text">pl113</span></a>
+<a href="/pl114/index.php" data-world="pl114" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" style="width: 90px; margin-bottom: 4px;"><span class="ui-button-text">pl114</span></a>
+<a href="/pl115/index.php" data-world="pl115" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" style="width: 90px; margin-bottom: 4px;"><span class="ui-button-text">pl115</span></a>
+<a href="/pl116/index.php" data-world="pl116" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" style="width: 90px; margin-bottom: 4px;"><span class="ui-button-text">pl116</span></a>
+<a href="/pl117/index.php" data-world="pl117" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" style="width: 90px; margin-bottom: 4px;"><span class="ui-button-text">pl117</span></a>
+<a href="/pl118/index.php" data-world="pl118" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" style="width: 90px; margin-bottom: 4px;"><span class="ui-button-text">pl118</span></a>
+<a href="/plp4/index.php" data-world="plp4" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" style="width: 90px; margin-bottom: 4px;"><span class="ui-button-text">plp4</span></a>
+<a href="/pl119/index.php" data-world="pl119" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" style="width: 90px; margin-bottom: 4px;"><span class="ui-button-text">pl119</span></a>
+<a href="/pl120/index.php" data-world="pl120" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" style="width: 90px; margin-bottom: 4px;"><span class="ui-button-text">pl120</span></a>
+<a href="/pl121/index.php" data-world="pl121" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" style="width: 90px; margin-bottom: 4px;"><span class="ui-button-text">pl121</span></a>
+<a href="/pl122/index.php" data-world="pl122" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" style="width: 90px; margin-bottom: 4px;"><span class="ui-button-text">pl122</span></a>
+<a href="/pl123/index.php" data-world="pl123" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" style="width: 90px; margin-bottom: 4px;"><span class="ui-button-text">pl123</span></a>
+<a href="/pl124/index.php" data-world="pl124" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" style="width: 90px; margin-bottom: 4px;"><span class="ui-button-text">pl124</span></a>
+<a href="/pl125/index.php" data-world="pl125" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" style="width: 90px; margin-bottom: 4px;"><span class="ui-button-text">pl125</span></a>
+<a href="/pl126/index.php" data-world="pl126" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" style="width: 90px; margin-bottom: 4px;"><span class="ui-button-text">pl126</span></a>
+<a href="/pl127/index.php" data-world="pl127" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" style="width: 90px; margin-bottom: 4px;"><span class="ui-button-text">pl127</span></a>
+<a href="/pl128/index.php" data-world="pl128" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" style="width: 90px; margin-bottom: 4px;"><span class="ui-button-text">pl128</span></a>
+<a href="/pl129/index.php" data-world="pl129" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" style="width: 90px; margin-bottom: 4px;"><span class="ui-button-text">pl129</span></a>
+<a href="/pl130/index.php" data-world="pl130" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" style="width: 90px; margin-bottom: 4px;"><span class="ui-button-text">pl130</span></a>
+<a href="/pl131/index.php" data-world="pl131" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" style="width: 90px; margin-bottom: 4px;"><span class="ui-button-text">pl131</span></a>
+<a href="/pl132/index.php" data-world="pl132" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" style="width: 90px; margin-bottom: 4px;"><span class="ui-button-text">pl132</span></a>
+<a href="/plp5/index.php" data-world="plp5" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" style="width: 90px; margin-bottom: 4px;"><span class="ui-button-text">plp5</span></a>
+<a href="/pl133/index.php" data-world="pl133" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" style="width: 90px; margin-bottom: 4px;"><span class="ui-button-text">pl133</span></a>
+<a href="/pl134/index.php" data-world="pl134" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" style="width: 90px; margin-bottom: 4px;"><span class="ui-button-text">pl134</span></a>
+<a href="/pl135/index.php" data-world="pl135" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" style="width: 90px; margin-bottom: 4px;"><span class="ui-button-text">pl135</span></a>
+<a href="/pl136/index.php" data-world="pl136" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" style="width: 90px; margin-bottom: 4px;"><span class="ui-button-text">pl136</span></a>
+<a href="/pl137/index.php" data-world="pl137" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" style="width: 90px; margin-bottom: 4px;"><span class="ui-button-text">pl137</span></a>
+<a href="/pl138/index.php" data-world="pl138" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" style="width: 90px; margin-bottom: 4px;"><span class="ui-button-text">pl138</span></a>
+<a href="/pl76/index.php" data-world="pl76" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" style="width: 90px; margin-bottom: 4px;"><span class="ui-button-text">Świat 76</span></a>
+<a href="/pl77/index.php" data-world="pl77" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" style="width: 90px; margin-bottom: 4px;"><span class="ui-button-text">Świat 77</span></a>
+<a href="/pl78/index.php" data-world="pl78" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" style="width: 90px; margin-bottom: 4px;"><span class="ui-button-text">Świat 78</span></a>
+<a href="/pl79/index.php" data-world="pl79" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" style="width: 90px; margin-bottom: 4px;"><span class="ui-button-text">Świat 79</span></a>
+<a href="/pl80/index.php" data-world="pl80" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" style="width: 90px; margin-bottom: 4px;"><span class="ui-button-text">Świat 80</span></a>
+<a href="/pl81/index.php" data-world="pl81" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" style="width: 90px; margin-bottom: 4px;"><span class="ui-button-text">Świat 81</span></a>
+<a href="/pl82/index.php" data-world="pl82" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" style="width: 90px; margin-bottom: 4px;"><span class="ui-button-text">Świat 82</span></a>
+<a href="/pl83/index.php" data-world="pl83" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" style="width: 90px; margin-bottom: 4px;"><span class="ui-button-text">Świat 83</span></a>
+<a href="/pl84/index.php" data-world="pl84" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" style="width: 90px; margin-bottom: 4px;"><span class="ui-button-text">Świat 84</span></a>
+<a href="/pl85/index.php" data-world="pl85" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" style="width: 90px; margin-bottom: 4px;"><span class="ui-button-text">Świat 85</span></a>
+<a href="/pl86/index.php" data-world="pl86" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" style="width: 90px; margin-bottom: 4px;"><span class="ui-button-text">Świat 86</span></a>
+<a href="/pl87/index.php" data-world="pl87" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" style="width: 90px; margin-bottom: 4px;"><span class="ui-button-text">Świat 87</span></a>
+<a href="/pl88/index.php" data-world="pl88" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" style="width: 90px; margin-bottom: 4px;"><span class="ui-button-text">Świat 88</span></a>
+<a href="/pl89/index.php" data-world="pl89" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" style="width: 90px; margin-bottom: 4px;"><span class="ui-button-text">Świat 89</span></a>
+<a href="/pl90/index.php" data-world="pl90" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" style="width: 90px; margin-bottom: 4px;"><span class="ui-button-text">Świat 90</span></a>
+<a href="/pl91/index.php" data-world="pl91" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" style="width: 90px; margin-bottom: 4px;"><span class="ui-button-text">Świat 91</span></a>
+<a href="/pl92/index.php" data-world="pl92" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" style="width: 90px; margin-bottom: 4px;"><span class="ui-button-text">Świat 92</span></a>
+<a href="/pl93/index.php" data-world="pl93" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" style="width: 90px; margin-bottom: 4px;"><span class="ui-button-text">Świat 93</span></a>
+<a href="/pl94/index.php" data-world="pl94" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" style="width: 90px; margin-bottom: 4px;"><span class="ui-button-text">Świat 94</span></a>
+<a href="/pl95/index.php" data-world="pl95" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" style="width: 90px; margin-bottom: 4px;"><span class="ui-button-text">Świat 95</span></a>
+<a href="/pl96/index.php" data-world="pl96" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" style="width: 90px; margin-bottom: 4px;"><span class="ui-button-text">Świat 96</span></a>
+<a href="/pl97/index.php" data-world="pl97" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" style="width: 90px; margin-bottom: 4px;"><span class="ui-button-text">Świat 97</span></a>
+<a href="/plc1/index.php" data-world="plc1" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" style="margin-bottom: 4px;"><span class="ui-button-text">Special</span></a>
+<a href="/plp1/index.php" data-world="plp1" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" style="width: 90px; margin-bottom: 4px;"><span class="ui-button-text">Arkadia</span></a>
+<a href="/plp2/index.php" data-world="plp2" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button" style="width: 90px; margin-bottom: 4px;"><span class="ui-button-text">Arkadia 2</span></a>
+</div>
+</div></div><iframe id="google_osd_static_frame_286310663000" name="google_osd_static_frame" style="display: none; width: 0px; height: 0px;"></iframe></body><iframe id="google_esf" name="google_esf" src="https://googleads.g.doubleclick.net/pagead/html/r20190212/r20190131/zrt_lookup.html#" style="display: none;" data-ad-client="ca-pub-9291490758497124"></iframe></html>
