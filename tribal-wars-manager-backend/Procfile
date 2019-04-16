@@ -1,0 +1,1 @@
+web java -Dserver.port=$PORT -Dname=Marcin $JAVA_OPTS -jar target/tribal-wars-manager-backend-0.0.1-SNAPSHOT.jar
