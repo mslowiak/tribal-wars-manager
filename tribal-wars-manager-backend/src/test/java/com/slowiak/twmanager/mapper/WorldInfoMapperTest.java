@@ -21,7 +21,7 @@ class WorldInfoMapperTest {
 
     @BeforeEach
     void setUp() {
-        MockitoAnnotations.initMocks(this);
+        MockitoAnnotations.openMocks(this);
         worldInfoMapper = new WorldInfoMapper(worldInfoProps);
         given(worldInfoProps.getAllowMorale()).willReturn("Morale");
         given(worldInfoProps.getAllowDestroy()).willReturn("Burzenie");
